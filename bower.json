@@ -1,0 +1,22 @@
+{
+  "name": "gonfanon-icons",
+  "authors": [
+    "Thomas Girard <uxon@thomasgirard.fr>"
+  ],
+  "description": "Free and modern SVG icon theme designed for webapps.",
+  "main": "gonfanon.svg",
+  "moduleType": [],
+  "keywords": [
+    "icons",
+    "svg"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "homepage": "#",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
