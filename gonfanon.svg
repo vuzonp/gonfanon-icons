@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./gh/preview.xsl" type="text/xsl" ?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    preserveAspectRatio="xMidYMid"
+    version="1.1"
+    width="24" height="24"
+    viewBox="0 0 24 24"
+    xml:lang="en-US">
+
+    <title id="label-gonfanon">Gonfanôn Icons</title>
+    <desc id="desc-gonfanon">
+        Free and modern SVG icon theme designed for webapps.
+    </desc>
+
+    <metadata>
+        <rdf:RDF
+            xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc = "http://purl.org/dc/elements/1.1/">
+            <rdf:Description rdf:about="https://github.com/vuzonp/gonfanon-icons/master/icons.svg">
+                <dc:creator>Thomas Girard</dc:creator>
+                <dc:title>Gonfanôn Icons</dc:title>
+                <dc:subject>Webapps icons</dc:subject>
+                <dc:description>Free and modern SVG icon theme designed for webapps.</dc:description>
+                <dc:type>Image</dc:type>
+                <dc:format>image/svg+xml</dc:format>
+                <dc:date>2015-11-05</dc:date>
+                <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+                <dc:identifier>https://github.com/vuzonp/gonfanon-icons/master/icons.svg</dc:identifier>
+                <dc:language>en-US</dc:language>
+            </rdf:Description>
+        </rdf:RDF>
+    </metadata>
+
+    <!-- Shapes ============================================================ -->
+
+    <defs>
+
+        <symbol id="icon-square">
+            <title id="label-square">Square Shape</title>
+            <rect x="4" y="4" width="16" height="16" />
+        </symbol>
+
+        <symbol id="icon-circle">
+            <title id="label-circle">Circle Shape</title>
+            <circle cx="12" cy="12" r="10" />
+        </symbol>
+
+        <symbol id="icon-triangle">
+            <title id="label-triangle">Equilateral Triangle Shape</title>
+            <polygon points="12,3 22,21 2,21" />
+        </symbol>
+
+        <symbol id="icon-hexa">
+            <title id="label-hexa">Hexagon Shape</title>
+            <polygon points="7,3 17,3 22,12 17,21 7,21 2,12" />
+        </symbol>
+
+        <symbol id="icon-star">
+            <title id="label-star">Star Shape</title>
+            <desc>Five pointed star</desc>
+            <polygon points="2.5,9 21.5,9 12,16" />
+            <polygon points="12,2 18,20 12,16 6,20" />
+        </symbol>
+
+        <clipPath id="shape-cloud-mask">
+            <rect x="0" y="0" width="24" height="14" />
+        </clipPath>
+        <symbol id="icon-cloud">
+            <title id="label-cloud">Cloud Shape</title>
+            <g clip-path="url(#shape-cloud-mask)" stroke-width="0" opacity=".6">
+                <circle cx="12" cy="8" r="6" />
+                <circle cx="7" cy="12" r="5" />
+                <circle cx="18" cy="12" r="4" />
+                <rect x="2" y="12" width="20" height="10" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-receptacle">
+            <title id="label-receptacle">Receptacle Symbol</title>
+            <desc id="desc-receptacle">Box with flanges</desc>
+            <rect x="2" y="15" width="2" height="7" />
+            <rect x="20" y="15" width="2" height="7" />
+            <rect x="2" y="18" width="20" height="4" />
+        </symbol>
+
+        <symbol id="icon-balloon">
+            <title id="label-balloon">Speech Balloon Shape</title>
+            <ellipse cx="12" cy="9.5" rx="10" ry="7.5" />
+            <polygon points="12,12 12,17 4,20" />
+        </symbol>
+
+    </defs>
+
+    <!-- Arrows ============================================================ -->
+
+    <defs>
+
+        <symbol id="icon-arrhead">
+            <title id="label-arrhead">Arrowhead Symbol</title>
+            <polygon points="12,6 13,6 22,12 13,18 12,18" />
+        </symbol>
+        <symbol id="icon-large-arrhead">
+            <title id="label-large-arrhead">Large Arrowhead Symbol</title>
+            <polygon points="12,4 14,4 22,12 14,20 12,20" />
+        </symbol>
+        <symbol id="icon-small-arrhead">
+            <title id="label-small-arrhead">Small arrowhead Symbol</title>
+            <polygon points="17,7 22,12 17,17" />
+        </symbol>
+        <symbol id="icon-tiny-arrhead">
+            <title id="label-tiny-arrhead">Tiny Arrowhead Symbol</title>
+            <polygon points="18,8 22,12 18,16" />
+        </symbol>
+
+        <symbol id="icon-chevron">
+            <title id="label-chevron">Angle Bracket Ornament</title>
+            <polygon points="12,6 14,4 22,12 14,20 12,18 18,12" />
+        </symbol>
+        <symbol id="icon-large-chevron">
+            <title id="label-large-chevron">Large Angle Bracket Ornament</title>
+            <polygon points="10,4 12,2 22,12 12,22 10,20 18,12" />
+        </symbol>
+        <symbol id="icon-small-chevron">
+            <title id="label-small-chevron">Small Angle Bracket Ornament</title>
+            <polygon points="17,8 19,8 22,12 19,16 17,16 20,12" />
+        </symbol>
+
+    </defs>
+
+    <defs>
+
+        <!-- Simple Arrows -->
+
+        <symbol id="icon-arr">
+            <title id="label-arr">Arrow Shape</title>
+            <rect id="shape-shaft" x="2" y="10" width="16" height="4" />
+            <use xlink:href="#icon-arrhead" />
+        </symbol>
+
+        <symbol id="icon-arr-medium">
+            <title id="label-arr-medium">Medium Arrow Shape</title>
+            <rect id="shape-shaft-medium" x="6" y="10" width="12" height="4" />
+            <use xlink:href="#icon-arrhead" />
+        </symbol>
+
+        <symbol id="icon-large-arr">
+            <title id="label-large-arr">Large Arrow Shape</title>
+            <rect id="shape-large-shaft" x="2" y="8" width="16" height="8" />
+            <use xlink:href="#icon-large-arrhead" />
+        </symbol>
+
+        <symbol id="icon-larr">
+            <title id="label-larr">Long Arrow Shape</title>
+            <rect id="shape-long-shaft" x="2" y="11" width="18" height="2" />
+            <use xlink:href="#icon-tiny-arrhead" />
+        </symbol>
+
+        <symbol id="icon-thin-arr">
+            <title id="label-thin-arr">Thin Arrow Shape</title>
+            <rect id="shape-thin-shaft" x="6" y="11" width="12" height="2" />
+            <use xlink:href="#icon-tiny-arrhead" />
+        </symbol>
+
+        <symbol id="icon-sarr">
+            <title id="label-sarr">Short Arrow Shape</title>
+            <rect id="shape-short-shaft" x="12" y="11" width="8" height="2" />
+            <use xlink:href="#icon-tiny-arrhead" />
+        </symbol>
+
+        <symbol id="icon-short-bold-arr">
+            <title id="label-short-bold-arr">
+                Short and Bold Arrow Shape
+            </title>
+            <rect
+                id="shape-shortbold-shaft"
+                x="12"
+                y="10"
+                width="8"
+                height="4" />
+            <use xlink:href="#icon-small-arrhead" />
+        </symbol>
+
+        <symbol id="icon-arr-alt">
+            <title id="label-arr-alt">Arrow Shape</title>
+            <use xlink:href="#shape-shaft" />
+            <use xlink:href="#icon-chevron" />
+        </symbol>
+
+        <symbol id="icon-large-arr-alt">
+            <title id="label-large-arr-alt">Large Arrow Shape</title>
+            <use xlink:href="#shape-large-shaft" />
+            <use xlink:href="#icon-large-chevron" />
+        </symbol>
+
+        <symbol id="icon-larr-alt">
+            <title id="label-larr-alt">Long Arrow Shape</title>
+            <use xlink:href="#shape-long-shaft" />
+            <use xlink:href="#icon-small-chevron" />
+        </symbol>
+
+        <symbol id="icon-thin-arr-alt">
+            <title id="label-thin-arr-alt">Thin Arrow Shape</title>
+            <rect x="6" y="11" width="14" height="2" />
+            <use xlink:href="#icon-small-chevron" />
+        </symbol>
+
+        <symbol id="icon-sarr-alt">
+            <title id="label-sarr-alt">Short Arrow Shape</title>
+            <use xlink:href="#shape-short-shaft" />
+            <use xlink:href="#icon-small-chevron" />
+        </symbol>
+
+        <symbol id="icon-short-bold-arr-alt">
+            <title id="label-short-bold-arr-alt">
+                Short and Bold Arrow Shape
+            </title>
+            <use xlink:href="#shape-shortbold-shaft" />
+            <use xlink:href="#icon-small-chevron" />
+        </symbol>
+
+        <!-- Composed Arrows -->
+
+        <symbol id="icon-bidirectional-arr">
+            <title id="label-bidirectional-arr">
+                Bidirectional Arrow Shape
+            </title>
+            <desc id="desc-bidirectional-arr">
+                Arrow with two points to opposite direction.
+            </desc>
+            <use xlink:href="#icon-sarr" />
+            <use
+                xlink:href="#icon-sarr"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-bidirectional-arr-alt">
+            <title id="label-bidirectional-arr-alt">
+                Bidirectional Arrow Shape
+            </title>
+            <desc id="desc-bidirectional-arr-alt">
+                Arrow with two points to opposite direction.
+            </desc>
+            <use xlink:href="#icon-sarr-alt" />
+            <use
+                xlink:href="#icon-sarr-alt"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-crossed-arr">
+            <title id="label-crossed-arr">
+                Left-Right-Up-Down Arrows Shape
+            </title>
+            <desc id="desc-crossed-arr">
+                Two perpendicular arrows with two points to opposite direction.
+            </desc>
+            <use xlink:href="#icon-bidirectional-arr" />
+            <use
+                xlink:href="#icon-bidirectional-arr"
+                transform="rotate(90, 12, 12)" />
+        </symbol>
+
+
+        <symbol id="icon-crossed-arr-alt">
+            <title id="label-crossed-arr-alt">
+                North-West North-East South-East South-West Arrows Shape
+            </title>
+            <desc id="desc-crossed-arr-alt">
+                Two perpendicular arrows in diagonals
+                with two points to opposite direction.
+            </desc>
+            <polygon
+                id="shape-diag-arr"
+                points="4,4 10,4 8,6 14,12 12,14 6,8 4,10" />
+            <use
+                xlink:href="#shape-diag-arr"
+                transform="rotate(90, 12, 12)" />
+            <use
+                xlink:href="#shape-diag-arr"
+                transform="rotate(180, 12, 12)" />
+            <use
+                xlink:href="#shape-diag-arr"
+                transform="rotate(-90, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-2h-arr">
+            <title id="label-2h-arr">Two Headed Arrow Shape</title>
+            <use xlink:href="#icon-sarr" />
+            <use xlink:href="#icon-sarr" x="-4" />
+        </symbol>
+
+        <symbol id="icon-2h-arr-alt">
+            <title id="label-2h-arr-alt">Two Headed Arrow Shape</title>
+            <use xlink:href="#icon-sarr-alt" />
+            <use xlink:href="#icon-sarr-alt" x="-4" />
+        </symbol>
+
+        <symbol id="icon-darr">
+            <title id="label-darr">Two Stacked Arrows Shape</title>
+            <use xlink:href="#icon-sarr" x="-4" y="-4" />
+            <use xlink:href="#icon-sarr" x="-4" y="4" />
+        </symbol>
+
+        <symbol id="icon-darr-alt">
+            <title id="label-darr-alt">
+                Two Stacked Arrows Shape
+            </title>
+            <use xlink:href="#icon-sarr-alt" x="-4" y="-4" />
+            <use xlink:href="#icon-sarr-alt" x="-4" y="4" />
+        </symbol>
+
+        <symbol id="icon-arr-out">
+            <title id="label-arr-out">Extraction Arrows Symbol</title>
+            <use xlink:href="#icon-darr" />
+            <rect id="shape-arr-wall" x="2" y="4" width="4" height="16" />
+        </symbol>
+
+        <symbol id="icon-arr-out-alt">
+            <title id="label-arr-out-alt">Extraction Arrows Symbol</title>
+            <use xlink:href="#icon-darr-alt" />
+            <use xlink:href="#shape-arr-wall" />
+        </symbol>
+
+        <symbol id="icon-arr-in">
+            <title id="label-arr-in">Insertion Arrows Symbol</title>
+            <use xlink:href="#icon-darr" x="-2" />
+            <use xlink:href="#shape-arr-wall" x="16" />
+        </symbol>
+
+        <symbol id="icon-arr-in-alt">
+            <title id="label-arr-in-alt">Insertion Arrows Symbol</title>
+            <use xlink:href="#icon-darr-alt" x="-2" />
+            <use xlink:href="#shape-arr-wall" x="16" />
+        </symbol>
+
+        <symbol id="icon-evolve">
+            <title id="label-evolve">Speed Arrows Symbol</title>
+            <desc id="desc-evolve">
+                Two stacked arrows in same direction but with an offset.
+            </desc>
+            <use xlink:href="#icon-sarr" x="-4" y="-4" />
+            <use xlink:href="#icon-sarr" y="4" />
+        </symbol>
+
+        <symbol id="icon-evolve-alt">
+            <title id="label-evolve-alt">Speed Arrows Symbol</title>
+            <desc id="desc-evolve-alt">
+                Two stacked arrows in same direction but with an offset.
+            </desc>
+            <use xlink:href="#icon-sarr-alt" x="-4" y="-4" />
+            <use xlink:href="#icon-sarr-alt" y="4" />
+        </symbol>
+
+        <symbol id="icon-two-way">
+            <title id="label-two-way">Both Direction Arrow Shape</title>
+            <desc id="desc-two-way">
+                Two stacked arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-larr" y="-4" />
+            <use
+                xlink:href="#icon-larr"
+                y="-4"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-two-way-alt">
+            <title id="label-two-way-alt">Both Direction Arrow Shape</title>
+            <desc id="desc-two-way-alt">
+                Two stacked arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-larr-alt" y="-4" />
+            <use
+                xlink:href="#icon-larr-alt"
+                y="-4"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-exchange">
+            <title id="label-exchange">Bidirectional Arrows Shape</title>
+            <desc id="desc-exchange">
+                Two stacked short arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-short-bold-arr" y="-3" x="-2" />
+            <use
+                xlink:href="#icon-short-bold-arr"
+                y="-3"
+                x="-2"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-exchange-alt">
+            <title id="label-exchange-alt">Bidirectional Arrows Shape</title>
+            <desc id="desc-exchange-alt">
+                Two stacked short arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-short-bold-arr-alt" y="-3" x="-2" />
+            <use
+                xlink:href="#icon-short-bold-arr-alt"
+                y="-3"
+                x="-2"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-exchange-async">
+            <title id="label-exchange-async">Bidirectional Arrows Shape</title>
+            <desc id="desc-exchange-async">
+                Two stacked short arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-sarr" y="-4" x="-2" />
+            <use
+                xlink:href="#icon-sarr"
+                y="-4"
+                x="-2"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-exchange-async-alt">
+            <title id="label-exchange-async-alt">
+                Bidirectional Arrows Shape
+            </title>
+            <desc id="desc-exchange-async-alt">
+                Two stacked short arrows to opposite direction.
+            </desc>
+            <use xlink:href="#icon-sarr-alt" y="-4" x="-2" />
+            <use
+                xlink:href="#icon-sarr-alt"
+                y="-4"
+                x="-2"
+                transform="rotate(180, 12, 12)" />
+        </symbol>
+
+        <clipPath id="shape-download-mask">
+            <path d="M0,0 24,0 24,17 15,17 15,11 9,11 9,17 0,17Z" />
+        </clipPath>
+        <symbol id="icon-download">
+            <title id="label-download">Download Symbol</title>
+            <use
+                xlink:href="#icon-cloud"
+                clip-path="url(#shape-download-mask)" />
+            <use
+                xlink:href="#icon-short-bold-arr"
+                transform="rotate(90, 12, 12)" />
+        </symbol>
+
+        <clipPath id="shape-upload-mask">
+            <path d="M0,0 24,0 24,22 12,10 0,22Z" />
+        </clipPath>
+        <symbol id="icon-upload">
+            <title id="label-upload">Upload Symbol</title>
+            <use xlink:href="#icon-cloud" clip-path="url(#shape-upload-mask)" />
+            <use
+                xlink:href="#icon-short-bold-arr"
+                x="-10"
+                transform="rotate(-90, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-download-alt">
+            <title id="label-download-alt">Download Symbol</title>
+            <use xlink:href="#icon-receptacle" />
+            <use
+                xlink:href="#icon-short-bold-arr"
+                x="-6"
+                transform="rotate(90, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-upload-alt">
+            <title id="label-upload-alt">Upload Symbol</title>
+            <use xlink:href="#icon-receptacle" />
+            <use
+                xlink:href="#icon-short-bold-arr"
+                x="-4"
+                transform="rotate(-90, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-return-arr">
+            <title id="label-return-arr">Carriage Return</title>
+            <desc id="desc-return-arr">Arrow with corner clockwise.</desc>
+            <g transform="rotate(180, 12, 12)">
+                <use xlink:href="#icon-arrhead" />
+                <g id="shape-turned-shaft">
+                    <polygon points="4,10 18,10 18,14 8,14 8,20 4,20" />
+                </g>
+            </g>
+        </symbol>
+
+        <symbol id="icon-return-arr-alt">
+            <title id="label-return-arr-alt">Right Angle Arrow</title>
+            <desc id="desc-return-arr-alt">Arrow with corner clockwise.</desc>
+            <g transform="rotate(180, 12, 12)">
+                <use xlink:href="#icon-chevron" />
+                <use xlink:href="#shape-turned-shaft" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-chevrons">
+            <title id="label-chevrons">Chevrons Shape</title>
+            <desc id="desc-chevrons">Double Angle Quotation Mark.</desc>
+            <use xlink:href="#icon-chevron" x="-10"/>
+            <use xlink:href="#icon-chevron" />
+        </symbol>
+
+        <symbol id="icon-chevrons-alt">
+            <title id="label-chevrons-alt">Chevrons Shape</title>
+            <desc id="desc-chevrons-alt">Double Angle Bracket.</desc>
+            <use xlink:href="#icon-chevron" x="-8"/>
+            <use xlink:href="#icon-chevron" x="-2"/>
+        </symbol>
+
+    </defs>
+
+    <!-- Directions ======================================================== -->
+
+    <defs>
+
+        <symbol id="icon-turn-arr">
+            <title id="label-turn-arr">Turn Arrow Shape</title>
+            <path d="M7,22 Q7,12 18,12" stroke-width="4" fill="none" />
+            <use xlink:href="#icon-small-arrhead" />
+        </symbol>
+
+        <symbol id="icon-turn-arr-alt">
+            <title id="label-turn-arr-alt">Turn Arrow Shape</title>
+            <path d="M7,22 Q7,12 20,12" stroke-width="4" fill="none" />
+            <use xlink:href="#icon-small-chevron" />
+        </symbol>
+
+        <symbol id="icon-fork-arr">
+            <title id="label-fork-arr">Fork Arrow Symbol</title>
+            <g opacity=".4">
+                <rect x="5" y="6" width="4" height="16" />
+                <use
+                    xlink:href="#icon-small-arrhead"
+                    y="-5"
+                    transform="rotate(-90, 12, 12)" />
+            </g>
+            <use xlink:href="#icon-turn-arr" />
+        </symbol>
+
+        <symbol id="icon-fork-arr-alt">
+            <title id="label-fork-arr-alt">Fork Arrow Symbol</title>
+            <g opacity=".4">
+                <rect x="5" y="4" width="4" height="18" />
+                <use
+                    xlink:href="#icon-small-chevron"
+                    y="-5"
+                    transform="rotate(-90, 12, 12)" />
+            </g>
+            <use xlink:href="#icon-turn-arr-alt" />
+        </symbol>
+
+        <symbol id="icon-slot-arr">
+            <title id="label-slot-arr">Slot Arrow Symbol</title>
+            <use xlink:href="#icon-turn-arr" x="-2"/>
+            <polygon
+                points="18,2 22,2 22,22 18,22 18,16 22,12 18,8"
+                opacity=".6" />
+        </symbol>
+
+        <symbol id="icon-slot-arr-alt">
+            <title id="label-slot-arr-alt">Slot Arrow Symbol</title>
+            <use xlink:href="#icon-turn-arr-alt" x="-2"/>
+            <polygon
+                points="18,2 22,2 22,22 18,22 18,17 22,12 18,7"
+                opacity=".6" />
+        </symbol>
+
+    </defs>
+
+    <!-- Media Player ====================================================== -->
+
+    <defs>
+
+        <clipPath id="mask-refresh">
+            <polygon points="0,0 13,0 13,12 24,12 24,24 0,24" />
+        </clipPath>
+        <symbol id="icon-refresh">
+            <title id="label-refresh">Refresh Symbol</title>
+            <desc>Clockwise triangle-headed open circle arrow.</desc>
+            <g transform="rotate(45,12,12)">
+                <circle
+                    cx="12"
+                    cy="12"
+                    r="6.5"
+                    stroke-width="3"
+                    fill="none"
+                    clip-path="url(#mask-refresh)" />
+                <use xlink:href="#icon-small-arrhead" x="-6" y="-6" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-play">
+            <title id="label-play">Play Symbol</title>
+            <desc id="desc-play">Right pointing triangle.</desc>
+            <polygon points="6,4 18,12 6,20" />
+        </symbol>
+
+        <symbol id="icon-step">
+            <title id="label-step">Next Step Symbol</title>
+            <desc id="desc-step">Right pointing triangle to bar.</desc>
+            <use xlink:href="#icon-play" x="-2" />
+            <rect id="shape-play-wall" x="16" y="4" width="4" height="16" />
+        </symbol>
+
+        <symbol id="icon-forward">
+            <title id="label-forward">Forward Symbol</title>
+            <desc id="desc-forward">Double right pointing triangle.</desc>
+            <use xlink:href="#icon-play" x="-4" />
+            <use xlink:href="#icon-play" x="4" />
+        </symbol>
+
+        <symbol id="icon-next">
+            <title id="label-next">Jump To Next Symbol</title>
+            <desc id="desc-next">Double right pointing triangle to bar.</desc>
+            <use xlink:href="#icon-forward" />
+            <use xlink:href="#shape-play-wall" x="2" />
+        </symbol>
+
+        <symbol id="icon-pause">
+            <title id="label-pause">Pause Symbol</title>
+            <desc id="desc-pause">Two vertical and parallel bars.</desc>
+            <rect x="6" y="4" width="5" height="16" />
+            <rect x="13" y="4" width="5" height="16" />
+        </symbol>
+
+        <symbol id="icon-stop">
+            <title id="label-stop">Stop Symbol</title>
+            <desc id="desc-stop">A square.</desc>
+            <use xlink:href="#icon-square" />
+        </symbol>
+
+        <symbol id="icon-record">
+            <title id="label-record">Record Symbol</title>
+            <desc>Round in a circle.</desc>
+            <circle cx="12" cy="12" r="6.5" stroke-width="3" fill="none" />
+            <circle cx="12" cy="12" r="3" />
+        </symbol>
+
+        <symbol id="icon-eject">
+            <title id="label-eject">Eject Symbol</title>
+            <desc id="desc-eject">Top pointing triangle from bar.</desc>
+            <use
+                xlink:href="#shape-play-wall"
+                x="-12"
+                transform="rotate(-90,12,12)" />
+            <polygon points="12,4 20,14 4,14" />
+        </symbol>
+
+        <symbol id="icon-fullscreen">
+            <title id="label-fullscreen">Fullscreen Symbol</title>
+            <desc id="desc-fullscreen">
+                A point surrounded in diagonal
+                by two triangle to opposite direction.
+            </desc>
+            <circle id="shape-screen-circle" cx="12" cy="12" r="2" />
+            <polygon
+                id="shape-fullscreen-arr"
+                points="14,4 20,4 20,10 18,8 16,10 14,8 16,6" />
+            <use
+                xlink:href="#shape-fullscreen-arr"
+                transform="rotate(180,12,12)" />
+        </symbol>
+
+        <symbol id="icon-compress">
+            <title id="label-compress">Compress Symbol</title>
+            <desc id="desc-compress">
+                A point surrounded in diagonal
+                by two triangle directed to it.
+            </desc>
+            <use
+                id="shape-fullscreen-arr-inv"
+                xlink:href="#shape-fullscreen-arr"
+                transform="rotate(180,17,7)" />
+            <use
+                xlink:href="#shape-fullscreen-arr-inv"
+                transform="rotate(180,12,12)" />
+            <use xlink:href="#shape-screen-circle" />
+        </symbol>
+
+        <clipPath id="mask-loop">
+            <polygon points="0,0 14,0 14,12 7,12 7,24 0,24" />
+        </clipPath>
+        <symbol id="icon-loop">
+            <title id="label-loop">Loop Symbol</title>
+            <desc id="desc-loop">
+                Two arrows rotating in clockwise direction.
+            </desc>
+            <g id="shape-loop-arr">
+                <rect
+                    x="5.5" y="7.5"
+                    width="15" height="9"
+                    stroke-width="3" fill="none"
+                    rx="4"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    clip-path="url(#mask-loop)" />
+                <use xlink:href="#icon-tiny-arrhead" x="-6" y="-4" />
+            </g>
+            <use xlink:href="#shape-loop-arr" transform="rotate(180,12,12)" />
+        </symbol>
+
+        <symbol id="icon-shuffle">
+            <title id="label-shuffle">Shuffle Symbol</title>
+            <desc id="desc-shuffle">
+                Two plaited arrows in same direction.
+            </desc>
+            <g id="shape-scissor-arr">
+                <polyline
+                    points="4,16 8,16 14,8 18,8"
+                    stroke-width="3"
+                    stroke-linejoin="round"
+                    fill="none" />
+                <use xlink:href="#icon-tiny-arrhead" x="-2" y="-4" />
+            </g>
+            <use
+                xlink:href="#shape-scissor-arr"
+                transform="scale(1,-1) translate(0,-24)" />
+        </symbol>
+
+        <symbol id="icon-controls">
+            <title id="label-controls">Control Panel Symbol</title>
+            <g opacity=".6">
+                <rect x="6" y="4" width="2" height="16" rx="1" />
+                <rect x="11" y="4" width="2" height="16" rx="1" />
+                <rect x="16" y="4" width="2" height="16" rx="1" />
+            </g>
+            <g>
+                <rect x="5" y="7" width="4" height="3" rx="1" />
+                <rect x="10" y="14" width="4" height="3" rx="1" />
+                <rect x="15" y="10" width="4" height="3" rx="1" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-volume">
+            <title id="label-volume">Speaker Symbol</title>
+            <rect x="2" y="9" width="5" height="6" rx="1" />
+            <use
+                xlink:href="#icon-large-arrhead"
+                transform="scale(-1,1) translate(-24,0)" />
+        </symbol>
+
+        <symbol id="icon-volume-mute">
+            <title id="label-volume-mute">Speaker Symbol: Switch Off</title>
+            <use xlink:href="#icon-volume" />
+            <g opacity=".6">
+                <line
+                    x1="15"
+                    y1="9"
+                    x2="21"
+                    y2="15"
+                    stroke-width="2"
+                    stroke-linecap="round" />
+                <line
+                    x1="21"
+                    y1="9"
+                    x2="15"
+                    y2="15"
+                    stroke-width="2"
+                    stroke-linecap="round" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-volume-sound">
+            <title id="label-volume-sound">Speaker Symbol: Switch On</title>
+            <use xlink:href="#icon-volume" />
+            <g opacity=".6">
+                <path
+                    d="M15,9 Q18,12 15,15"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    fill="none" />
+                <path
+                    d="M17,7 Q22,12 17,17"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    fill="none" />
+            </g>
+        </symbol>
+
+    </defs>
+
+
+    <!-- Text Editor ======================================================= -->
+
+    <defs>
+
+        <symbol id="icon-align-center">
+            <title id="label-align-center">Align Center Symbol</title>
+            <line id="shape-align-r1"
+                x1="8"
+                y1="6"
+                x2="16"
+                y2="6"
+                stroke-width="2" />
+            <line
+                id="shape-align-r2"
+                x1="4"
+                y1="10"
+                x2="20"
+                y2="10"
+                stroke-width="2" />
+            <line
+                id="shape-align-r3"
+                x1="6"
+                y1="14"
+                x2="18"
+                y2="14"
+                stroke-width="2" />
+            <line
+                id="shape-align-r4"
+                x1="4"
+                y1="18"
+                x2="20"
+                y2="18"
+                stroke-width="2" />
+        </symbol>
+
+        <symbol id="icon-align-left">
+            <title id="label-align-left">Align Left Symbol</title>
+            <use xlink:href="#shape-align-r1" x="-4" />
+            <use xlink:href="#shape-align-r2" />
+            <use xlink:href="#shape-align-r3" x="-2" />
+            <use xlink:href="#shape-align-r4" />
+        </symbol>
+
+        <symbol id="icon-align-right">
+            <title id="label-align-right">Align Right Symbol</title>
+            <use
+                xlink:href="#icon-align-left"
+                transform="scale(-1,1) translate(-24,0)" />
+        </symbol>
+
+        <symbol id="icon-align-justify">
+            <title id="label-align-justify">Align Justify Symbol</title>
+            <line x1="4" y1="6" x2="20" y2="6" stroke-width="2" />
+            <line x1="4" y1="10" x2="20" y2="10" stroke-width="2" />
+            <line x1="4" y1="14" x2="20" y2="14" stroke-width="2" />
+            <line x1="4" y1="18" x2="20" y2="18" stroke-width="2" />
+        </symbol>
+
+        <symbol id="icon-indent">
+            <title id="label-indent">Indent Symbol</title>
+            <g id="shape-indent">
+                <use xlink:href="#shape-align-r2" y="-4" opacity=".8" />
+                <use xlink:href="#shape-align-r1" x="4" y="4" />
+                <use xlink:href="#shape-align-r1" x="4" y="8" />
+                <use xlink:href="#shape-align-r4" opacity=".8" />
+            </g>
+            <use xlink:href="#icon-tiny-arrhead" x="-14" />
+        </symbol>
+
+        <symbol id="icon-outdent">
+            <title id="label-outdent">Outdent Symbol</title>
+            <use xlink:href="#shape-indent" />
+            <use
+                xlink:href="#icon-tiny-arrhead"
+                x="-14"
+                transform="scale(-1,1) translate(-12,0)" />
+        </symbol>
+
+        <symbol id="icon-grid">
+            <title id="label-grid">Grid Symbol</title>
+            <g id="shape-grid-row">
+                <rect id="shape-grid-item" x="4" y="4" width="4" height="4" />
+                <use xlink:href="#shape-grid-item" x="6" />
+                <use xlink:href="#shape-grid-item" x="12" />
+            </g>
+            <use xlink:href="#shape-grid-row" y="6" />
+            <use xlink:href="#shape-grid-row" y="12" />
+        </symbol>
+
+        <symbol id="icon-list">
+            <title id="label-list">Unordored List Symbol</title>
+            <g id="shape-ul">
+                <rect x="4" y="5" width="2" height="2" />
+                <use id="shape-li" xlink:href="#shape-align-r3" x="2" y="-8" />
+            </g>
+            <use xlink:href="#shape-ul" y="4" />
+            <use xlink:href="#shape-ul" y="8" />
+            <use xlink:href="#shape-ul" y="12" />
+        </symbol>
+
+        <symbol id="icon-ordored-list">
+            <title id="label-ordored-list">Ordored List Symbol</title>
+            <use xlink:href="#shape-li" />
+            <text x="4" y="7"
+                  font-size="4" textLength="3"
+                  font-family="verdana"
+                  lengthAdjust="spacingAndGlyphs">
+                <tspan>1</tspan>
+            </text>
+            <use xlink:href="#shape-li" y="4" />
+            <text x="4" y="11"
+                  font-size="4" textLength="3"
+                  font-family="verdana"
+                  lengthAdjust="spacingAndGlyphs">
+                <tspan>2</tspan>
+            </text>
+            <use xlink:href="#shape-li" y="8" />
+            <text x="4" y="15"
+                  font-size="4" textLength="3"
+                  font-family="verdana"
+                  lengthAdjust="spacingAndGlyphs">
+                <tspan>3</tspan>
+            </text>
+            <use xlink:href="#shape-li" y="12" />
+            <text
+                x="4" y="19"
+                font-size="4" textLength="3"
+                font-family="verdana"
+                lengthAdjust="spacingAndGlyphs">
+                <tspan>4</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-bold">
+            <title id="label-bold">Font Weight Symbol: Bold</title>
+            <text
+                x="12" y="18"
+                font-size="18" textLength="16"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    font-weight: bold;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    ">
+                <tspan>B</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-italic">
+            <title id="label-italic">Text Transform Symbol: Italic</title>
+            <text
+                x="12" y="18"
+                font-size="18" textLength="12"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    "
+                transform="skewX(-18) translate(4,0)">
+                <tspan>I</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-underline">
+            <title id="label-underline">Text Decoration Symbol: underline</title>
+            <text
+                x="12" y="18"
+                font-size="18" textLength="14"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    font-weight: bold;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    text-decoration: underline
+                    ">
+                <tspan>U</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-font">
+            <title id="label-font">Font Symbol</title>
+            <text
+                x="12" y="18"
+                font-size="18" textLength="16"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    font-weight: bold;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    ">
+                <tspan>A</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-headline">
+            <title id="label-headline">Headline Symbol</title>
+            <text
+                x="12" y="18"
+                font-size="18" textLength="16"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    font-weight: bold;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    ">
+                <tspan>H</tspan>
+            </text>
+        </symbol>
+
+        <symbol id="icon-markdown">
+            <title id="label-markdown">Markdown Symbol</title>
+            <text
+                x="7" y="18"
+                font-size="14" textLength="12"
+                lengthAdjust="spacingAndGlyphs"
+                style="
+                    font-family: Verdana, sans-serif;
+                    font-weight: bold;
+                    pointer-events: none;
+                    text-anchor: middle;
+                    ">
+                <tspan>M</tspan>
+            </text>
+            <use
+                xlink:href="#icon-sarr"
+                x="-4"
+                y="-6"
+                transform="rotate(90, 12, 12)" />
+        </symbol>
+
+        <symbol id="icon-quote">
+            <title id="label-quote">Quote Symbol</title>
+            <g id="shape-quote">
+                <use xlink:href="#icon-small-chevron" />
+                <use xlink:href="#icon-small-chevron" x="-4" />
+            </g>
+            <use xlink:href="#shape-quote" transform="rotate(180,12,12)" />
+        </symbol>
+
+        <symbol id="icon-code">
+            <title id="label-code">Source Code Symbol</title>
+            <line
+                x1="8"
+                y1="7"
+                x2="5"
+                y2="17"
+                stroke-width="2"
+                stroke-linecap="round" />
+            <polyline
+                points="12,7 17,12 12,17"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round" />
+        </symbol>
+
+        <symbol id="icon-link">
+            <title id="label-link">Link Symbol</title>
+            <g transform="rotate(-45,12,12)">
+                <rect
+                    x="4"
+                    y="9"
+                    width="8"
+                    height="6"
+                    rx="2"
+                    stroke-width="2"
+                    fill="none" />
+                <rect
+                    x="12"
+                    y="9"
+                    width="8"
+                    height="6"
+                    rx="2"
+                    stroke-width="2"
+                    fill="none" />
+                <line
+                    x1="8"
+                    y1="12"
+                    x2="16"
+                    y2="12"
+                    stroke-width="2"
+                    stroke-linecap="round" />
+            </g>
+        </symbol>
+
+        <clipPath id="mask-unlink">
+            <rect x="0" y="0" width="10" height="24" />
+            <rect x="14" y="0" width="10" height="24" />
+        </clipPath>
+        <symbol id="icon-unlink">
+            <title id="label-unlink">Unlink Symbol</title>
+            <g transform="rotate(-45,12,12)">
+                <rect
+                    x="4" y="9"
+                    width="16" height="6"
+                    rx="2" stroke-width="2" fill="none"
+                    clip-path="url(#mask-unlink)" />
+                <line
+                    x1="8"
+                    y1="12"
+                    x2="16"
+                    y2="12"
+                    stroke-width="2"
+                    stroke-linecap="round" />
+            </g>
+        </symbol>
+
+        <symbol id="icon-paperclip">
+            <title id="label-paperclip">Paperclip Symbol</title>
+            <path
+                d="
+                M7,7 7,17
+                Q9,21 12,21 15,21 17,17
+                L17,7
+                Q17,3 12,3 10,3 10,5
+                L10,14
+                Q10,17 12,17 14,17 14,14
+                L14,7"
+                stroke-linecap="round"
+                stroke-width="2"
+                fill="none"
+                transform="rotate(45,12,12)" />
+        </symbol>
+
+        <symbol id="icon-save">
+            <title id="label-save">Floppy Disk Symbol</title>
+            <path
+                d="
+                    M4,4 19,4 20,5 20,20 4,20Z
+                    M8,5 13,5 13,9 16,9 16,5 17,5 17,10 8,10Z"
+                fill-rule="evenOdd" />
+            <polygon
+                points="8,5 13,5 13,9 16,9 16,5 17,5 17,10 8,10"
+                opacity=".2" />
+            <rect x="6" y="12" width="12" height="7" fill-opacity=".2" />
+        </symbol>
+
+        <symbol id="icon-scissors">
+            <title id="label-scissors">Scissors Symbol</title>
+            <g id="shape-scissor" transform="rotate(-30,12,12)" >
+                <path d="M13,2 13,16 10,20 10,6 Q10,2 13,2Z" />
+                <circle cx="14" cy="20" r="3" stroke-width="2" fill="none" />
+            </g>
+            <use
+                xlink:href="#shape-scissor"
+                transform="scale(-1,1) translate(-24,0)" />
+        </symbol>
+
+        <symbol id="icon-picture">
+            <title id="label-picture">Picture Symbol</title>
+            <g fill-opacity=".4">
+                <path d="
+                    M3,10 7,6 12,11 14,9 22,17 3,17Z
+                    M4,10 7,7 10,10 9,11 7,10 5,11Z
+                    M14,10 17,13 14,12 11,13Z" fill-rule="evenOdd" />
+                <circle cx="17.5" cy="7" r="1.5" />
+            </g>
+            <path
+                d="M2,2 22,2 22,22 2,22Z M4,4 20,4 20,16 4,16Z"
+                fill-rule="evenOdd"  />
+        </symbol>
+
+        <symbol id="icon-clipboard">
+            <title id="label-clipboard">Clipboard Symbol</title>
+            <path
+                d="M4,3 20,3 20,22 4,22Z M6,4 18,4 18,20 6,20"
+                fill-rule="evenOdd" />
+            <rect x="6" y="4" width="12" height="16" opacity="0" />
+            <polygon points="9,2 15,2 16,6 8,6" />
+            <g stroke-width="1">
+                <line x1="7" y1="8.5" x2="17" y2="8.5" />
+                <line x1="7" y1="11.5" x2="17" y2="11.5" />
+                <line x1="7" y1="14.5" x2="17" y2="14.5" />
+                <line x1="7" y1="17.5" x2="14" y2="17.5" />
+            </g>
+        </symbol>
+
+        <clipPath id="mask-select">
+            <polygon points="0,0 24,0 24,11 11,11 11,24 0,24" />
+        </clipPath>
+        <symbol id="icon-select">
+            <title id="label-select">Cursor Pointer Symbol</title>
+            <rect
+                x="5" y="5"
+                width="14" height="14"
+                stroke-width="2"
+                fill="none"
+                opacity=".6"
+                clip-path="url(#mask-select)"  />
+            <polygon points="11,11 21,15 19,17 22,20 20,22 17,19 15,21" />
+        </symbol>
+
+    </defs>
+
+
+    <!-- Website ======================================================== -->
+
+    <defs>
+
+        <symbol id="icon-minus">
+            <title id="label-minus">Minus or Reduce Symbol</title>
+            <rect x="2" y="10" width="20" height="4" rx="1" />
+        </symbol>
+
+        <symbol id="icon-crux">
+            <title id="label-crux">Crux Symbol</title>
+            <use xlink:href="#icon-minus" />
+            <use xlink:href="#icon-minus" transform="rotate(90,12,12)" />
+        </symbol>
+
+        <symbol id="icon-close">
+            <title id="label-close">Close Symbol</title>
+            <use xlink:href="#icon-crux" transform="rotate(45,12,12)" />
+        </symbol>
+
+        <symbol id="icon-menu">
+            <title id="label-menu">Menu Symbol</title>
+            <desc id="desc-menu">3 horizontal stacked bars</desc>
+            <use xlink:href="#icon-minus" />
+            <use xlink:href="#icon-minus" y="-6" />
+            <use xlink:href="#icon-minus" y="6" />
+        </symbol>
+
+        <symbol id="icon-home">
+            <title id="label-home">Home Symbol</title>
+            <polygon
+                points="12,6 19,12 19,20 14,20 14,14 10,14 10,20 5,20 5,12" />
+            <polyline
+                points="3,11 12,3 21,11"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none" />
+        </symbol>
+
+        <symbol id="icon-mail">
+            <title id="label-mail">Envelope Symbol</title>
+            <polygon id="shape-mail-flap" points="2,5 22,5 22,7 12,12 2,7" />
+            <polygon id="shape-mail-body" points="2,9 12,14 22,9 22,20 2,20" />
+        </symbol>
+
+        <symbol id="icon-opened-mail">
+            <title id="label-opened-mail">Opened Envelope Symbol</title>
+            <use xlink:href="#shape-mail-flap" transform="rotate(180,12,7)" />
+            <use xlink:href="#shape-mail-body" />
+        </symbol>
+
+        <symbol id="icon-search">
+            <title id="label-search">Magnifying Glass Symbol</title>
+            <circle cx="9" cy="9" r="5" stroke-width="2" fill="none" />
+            <polygon points="12,12 14,12 18,16 16,18 12,14" />
+        </symbol>
+
+        <symbol id="icon-book">
+            <title id="label-book">Book Symbol</title>
+            <path
+                fill-rule="evenOdd"
+                d="
+                    M4,4
+                    Q4,2 6,2
+                    L18,2 18,19 6,19
+                    Q5,20 6,21
+                    L19,21 19,3
+                    Q20,3 20,4
+                    L20,21
+                    Q20,22 19,22
+                    L6,22
+                    Q4,22 4,20Z
+
+                    M10,5 14,5
+                    Q15,5 15,6 15,7 14,7
+                    L10,7
+                    Q9,7 9,6 9,5 10,5Z"  />
+        </symbol>
+
+        <symbol id="icon-opened-book">
+            <title id="label-opened-book">Opened Book Symbol</title>
+            <g id="shape-book-side">
+                <path
+                    fill-rule="evenOdd"
+                    d="
+                    M4,7 4,18
+                    Q8,14 12,18
+                    L11,6 12,7 12,18 4,20
+                    Q2,20 2,18
+                    L2,9
+                    Q2,7 4,7Z
+                    "  />
+                <path
+                    id="shape-book-border"
+                    d="M3,8 Q5,5 8,5 10,5 12,7"
+                    fill="none"
+                    stroke-width=".75" />
+                <g stroke-opacity=".4">
+                    <use
+                        id="shape-book-line"
+                        xlink:href="#shape-book-border"
+                        y="3"
+                        transform="scale(.6,.6) translate(5,4)"/>
+                    <use xlink:href="#shape-book-line" y="3" />
+                    <use xlink:href="#shape-book-line" y="6" />
+                </g>
+            </g>
+            <use
+                xlink:href="#shape-book-side"
+                transform="scale(-1,1) translate(-24,0)" />
+        </symbol>
+
+        <!-- Projects ====================================================== -->
+
+        <defs>
+            <symbol id="icon-fork">
+                <title id="label-fork">Fork Symbol</title>
+                <g transform="translate(.5,0)">
+                    <circle
+                        id="shape-node"
+                        cx="7"
+                        cy="5"
+                        r="2"
+                        fill="none"
+                        stroke-width="1.25" />
+                    <use xlink:href="#shape-node" x="8" y="2" />
+                    <use xlink:href="#shape-node" y="14" />
+                    <line
+                        x1="7"
+                        x2="7"
+                        y1="7"
+                        y2="17"
+                        fill="none"
+                        stroke-width="3" />
+                    <path
+                        d="M7,16 Q8,13 12,13 15,13 15,9"
+                        fill="none"
+                        stroke-width="3" />
+                </g>
+            </symbol>
+        </defs>
+
+    </defs>
+
+</svg>
