@@ -2,7 +2,7 @@
   "name": "gonfanon-icons",
   "version": "1.0.0",
   "description": "Free and modern SVG icon theme designed for webapps.",
-  "main": "icons.svg",
+  "main": "gonfanon.svg",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
