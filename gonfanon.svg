@@ -18,7 +18,7 @@
         <rdf:RDF
             xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
             xmlns:dc = "http://purl.org/dc/elements/1.1/">
-            <rdf:Description rdf:about="https://github.com/vuzonp/gonfanon-icons/master/icons.svg">
+            <rdf:Description rdf:about="https://github.com/vuzonp/gonfanon-icons/blob/master/gonfanon.svg">
                 <dc:creator>Thomas Girard</dc:creator>
                 <dc:title>Gonfanôn Icons</dc:title>
                 <dc:subject>Webapps icons</dc:subject>
@@ -27,7 +27,7 @@
                 <dc:format>image/svg+xml</dc:format>
                 <dc:date>2015-11-05</dc:date>
                 <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-                <dc:identifier>https://github.com/vuzonp/gonfanon-icons/master/icons.svg</dc:identifier>
+                <dc:identifier>https://github.com/vuzonp/gonfanon-icons/blob/master/gonfanon.svg</dc:identifier>
                 <dc:language>en-US</dc:language>
             </rdf:Description>
         </rdf:RDF>
