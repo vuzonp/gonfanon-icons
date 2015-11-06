@@ -1115,7 +1115,7 @@
                 d="
                     M4,4 19,4 20,5 20,20 4,20Z
                     M8,5 13,5 13,9 16,9 16,5 17,5 17,10 8,10Z"
-                fill-rule="evenOdd" />
+                fill-rule="evenodd" />
             <polygon
                 points="8,5 13,5 13,9 16,9 16,5 17,5 17,10 8,10"
                 opacity=".2" />
@@ -1139,19 +1139,19 @@
                 <path d="
                     M3,10 7,6 12,11 14,9 22,17 3,17Z
                     M4,10 7,7 10,10 9,11 7,10 5,11Z
-                    M14,10 17,13 14,12 11,13Z" fill-rule="evenOdd" />
+                    M14,10 17,13 14,12 11,13Z" fill-rule="evenodd" />
                 <circle cx="17.5" cy="7" r="1.5" />
             </g>
             <path
                 d="M2,2 22,2 22,22 2,22Z M4,4 20,4 20,16 4,16Z"
-                fill-rule="evenOdd"  />
+                fill-rule="evenodd"  />
         </symbol>
 
         <symbol id="icon-clipboard">
             <title id="label-clipboard">Clipboard Symbol</title>
             <path
                 d="M4,3 20,3 20,22 4,22Z M6,4 18,4 18,20 6,20"
-                fill-rule="evenOdd" />
+                fill-rule="evenodd" />
             <rect x="6" y="4" width="12" height="16" opacity="0" />
             <polygon points="9,2 15,2 16,6 8,6" />
             <g stroke-width="1">
@@ -1241,7 +1241,7 @@
         <symbol id="icon-book">
             <title id="label-book">Book Symbol</title>
             <path
-                fill-rule="evenOdd"
+                fill-rule="evenodd"
                 d="
                     M4,4
                     Q4,2 6,2
@@ -1264,7 +1264,7 @@
             <title id="label-opened-book">Opened Book Symbol</title>
             <g id="shape-book-side">
                 <path
-                    fill-rule="evenOdd"
+                    fill-rule="evenodd"
                     d="
                     M4,7 4,18
                     Q8,14 12,18
