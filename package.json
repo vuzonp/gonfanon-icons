@@ -1,0 +1,27 @@
+{
+  "name": "gonfanon-icons",
+  "version": "1.0.0",
+  "description": "Free and modern SVG icon theme designed for webapps.",
+  "main": "icons.svg",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuzonp/gonfanon-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "svg"
+  ],
+  "author": "Thomas Girard",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/vuzonp/gonfanon-icons/issues"
+  },
+  "homepage": "https://github.com/vuzonp/gonfanon-icons#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-svgmin": "^2.0.1"
+  }
+}
