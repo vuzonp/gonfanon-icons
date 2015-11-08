@@ -103,6 +103,10 @@ In many modern browsers, it is possible to use an external file with the `<use>`
 </html>
 ```
 
+## Contributors
+
+- Proofreading documents: [Sophie Fauvel](https://twitter.com/SophieFauvel).
+
 ## License
 
 ![CC-BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
