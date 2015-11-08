@@ -1,6 +1,6 @@
 # Gonfanôn Icons
 
-**_Gonfanon_ is a free and modern SVG icon theme designed for webapps. Its content is mainly composed of *actions*, *direction* and *navigation* icons, with a style inspired by the flat design trend.**
+**_Gonfanôn_ is a free and modern SVG icon theme designed for webapps. Its content is mainly composed of *actions*, *direction* and *navigation* icons, with a style inspired by the flat design trend.**
 
 You can resize the icons according to your requirements.
 
@@ -46,7 +46,7 @@ Embed SVG icons inside an html page is not simple. If you have never done it, I 
 - [Icon System with SVG Sprites (CSS Tricks)](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
 - [SVG symbol good choice icons (CSS Tricks)](https://css-tricks.com/svg-symbol-good-choice-icons/)
 
-Gonfanon is constitued of a SVG sprite (all icons are packaged in a single file). Each icon can be identified by its DOM identifier prefixed by `icon-`.
+Gonfanôn is constitued of a SVG sprite (all icons are packaged in a single file). Each icon can be identified by its DOM identifier prefixed by `icon-`.
 
 **Example:** an icon called *foo* has the: `#icon-foo` <dfn title="Internationalized Resource Identifier">IRI</dfn> and can be loaded like this:
 ```svg
@@ -81,7 +81,7 @@ Gonfanon is constitued of a SVG sprite (all icons are packaged in a single file)
 ```
 
 #### Variant
-In many modern browsers, it is possible to use an external file with the `<use>` tag, so it is not necessary to copy the content of the gonfanon.svg file in your html page ([Learn More](https://css-tricks.com/svg-use-external-source/)).
+In many modern browsers, it is possible to use an external file with the `<use>` tag, so it is not necessary to copy the content of the *gonfanon.svg* file in your html page ([Learn More](https://css-tricks.com/svg-use-external-source/)).
 
 ** Example **
 ```html
@@ -107,5 +107,5 @@ In many modern browsers, it is possible to use an external file with the `<use>`
 
 ![CC-BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-Gonfanon icons by [Thomas Girard](http://www.thomasgirard.fr/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Gonfanôn icons by [Thomas Girard](http://www.thomasgirard.fr/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 Based on a work at https://github.com/vuzonp/gonfanon-icons.
