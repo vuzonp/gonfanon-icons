@@ -105,6 +105,7 @@ In many modern browsers, it is possible to use an external file with the `<use>`
 
 ## Contributors
 
+- Design and Dev: [Thomas Girard](https://twitter.com/vuzonp);
 - Proofreading documents: [Sophie Fauvel](https://twitter.com/SophieFauvel).
 
 ## License
