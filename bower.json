@@ -11,12 +11,5 @@
     "svg"
   ],
   "license": "CC-BY-SA-4.0",
-  "homepage": "#",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "homepage": "https://vuzonp.github.io/gonfanon-icons/gonfanon.min.svg"
 }
