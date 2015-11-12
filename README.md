@@ -9,7 +9,7 @@ You can resize the icons according to your requirements.
 
 ## Preview
 
-[<img src="https://i.imgur.com/jnAGvLS.png" alt="preview" width="424" height="324" />](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg) 
+[<img src="https://i.imgur.com/jnAGvLS.png" alt="preview" width="424" height="324" />](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg)
 
 An overview of icons is available [here ](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg).
 
@@ -18,7 +18,7 @@ An overview of icons is available [here ](https://vuzonp.github.io/gonfanon-icon
 
 - SVG 1.1
 - Compatible with all modern browsers (*Chrome, IE9-Edge, Firefox, Opera, Safari*)
-- Light: **5.9kb** minified (*1.8kb*  with gzip);
+- Light: **28.1kb** minified (*5.3kb*  with gzip);
 - Optimized for icons in 24 × 24 pixels (default baseline of browsers);
 - Handle these icons easily with CSS and JavaScript.
 
