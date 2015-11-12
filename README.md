@@ -83,7 +83,7 @@ Gonfanôn is constitued of a SVG sprite (all icons are packaged in a single file
 #### Variant
 In many modern browsers, it is possible to use an external file with the `<use>` tag, so it is not necessary to copy the content of the *gonfanon.svg* file in your html page ([Learn More](https://css-tricks.com/svg-use-external-source/)).
 
-** Example **
+**Example:**
 ```html
 <html>
 	<head>
