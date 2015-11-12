@@ -9,7 +9,7 @@ You can resize the icons according to your requirements.
 
 ## Preview
 
-[![screenshot](https://i.imgur.com/wEA4Z7j.png) ](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg) 
+[<img src="https://i.imgur.com/jnAGvLS.png" alt="preview" width="424" height="324" />](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg) 
 
 An overview of icons is available [here ](https://vuzonp.github.io/gonfanon-icons/gonfanon.svg).
 
