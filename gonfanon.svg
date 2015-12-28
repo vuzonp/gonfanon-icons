@@ -93,7 +93,7 @@
 
         <symbol id="icon-snowflake">
           <title id="label-receptacle">Snow Flake</title>
-          <g stroke-linecap="round" stroke="black" fill="black" stroke-width="1.2">
+          <g stroke-linecap="round" stroke-width="1.8">
             <g id="sf-branch">
               <rect x="10" y="6" width="4" height="4" stroke="none"  />
               <line x1="12" y1="6" x2="12" y2="1" />
